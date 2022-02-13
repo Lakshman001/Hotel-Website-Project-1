@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Common Styleing */
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+p{
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 20px;
+}
+
+.highlight{
+    color: #f7c08a;
+}
+
+.bg-dark{
+    background-color: rgb(43, 42, 42);
+    color: #fff;
+}
+.bg-highlight{
+    background-color:#f7c08a;
+    color: #000;
+}
+.btn{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 20px;
+    
+    
+    
+}
+.btn-light{
+    background-color: #f4f4f4;
+    color: #000;
+}
+.btn:hover{
+    background-color: #f7c08a;
+    color: #000;
+}
+
+
+
+
+/* Navigation */
+#navbar {
+    background-color: black;
+    padding: 13px;
+    overflow: hidden;
+}
+
+#navbar h1{
+    float: left;
+   
+    color: white;
+
+}
+
+#navbar ul{
+    float:right ;
+    list-style-type: none;
+    
+}
+#navbar ul li{
+    display: inline;
+}
+#navbar ul li a{
+    padding: 20px;
+   text-align: center;
+    
+}
+#navbar ul li a:hover,#navbar ul li a.current{
+    color: #f7c08a;
+    background-color: #444;
+}
+
+/* Showcase */
+#showcase{
+    background: url('./img/showcase.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.showcase-content h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.showcase-content a{
+    
+    background-color: #444;
+}
+
+
+/* Home-Info */
+#home-info{
+height: 600px;
+}
+
+.info-img{
+    float: left;
+    background: url('./img/photo-1.jpg');
+    width: 50%;
+    min-height: 100%;
+}
+.info-content{
+    text-align: center;
+    padding: 20px;
+    padding-top: 200px;
+}
+.info-content h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+/* Home-Service */
+#home-service h3{
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+.box{
+    height: 205px;
+    width: 33.3%;
+    float: left;
+    padding: 30px;
+    text-align: center;
+
+}
+.clear{
+    clear: both;;
+}
+
+/* Footer */
+#footer{
+    background-color: #444;
+    height: 80px;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+}
+
+
+/* About Page */
+#about-info {
+    margin-top: 40px;
+  
+}
+#about-info .about-content {
+    float: left;
+    width: 60%;
+}
+#about-info .about-content h1{
+    font-size: 30px;
+}
+#about-info .about-img img {
+   width: 30%;
+   min-height: 100%;
+   float: right;
+   border-radius: 50%;
+   margin: 20px 15px 0 0;
+
+}
+
+
+/* Feedback */
+#feedbacks {
+    background: url('./img/test-bg.jpg');
+    background-size: cover;
+    height: 600px;
+    margin-top: 20px;
+   
+}
+#feedbacks h1{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 130px;
+    color: #fff;
+}
+
+#feedbacks .both{
+   margin-top: 95px;
+}
+
+#feedbacks .comment{
+    background-color: #f7c08a;
+    width: 100%;
+   height: 100%;
+    margin-bottom: 20px;
+  border-radius: 5px;
+ 
+}
+
+#feedbacks .comment img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    padding: 20px;
+    
+   
+}
+#feedbacks .comment p{
+    padding: 10px;
+}
+
+
+
+/* Contact  */
+#contact{
+    margin-top: 20px;
+}
+#contact h1{
+    font-size: 40px;
+}
+#contact .form-grp{
+    padding: 10px 0;
+}
+
+#contact .form-grp input{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+#contact .form-grp input[type="textarea"]{
+    padding: 130px;
+}
+
+
+/* Contact Info */
+#contact-info{
+    margin-top: 20px;
+    height: 220px;
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    color: #fff;
+}
+#contact-info .box{
+   margin-top: 40px;
+}
